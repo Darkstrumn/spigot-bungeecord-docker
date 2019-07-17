@@ -97,7 +97,7 @@ case "$1" in
         download_server
         first_run
         update_permissions
-        trap safe_shutdown EXIT
+#        trap safe_shutdown EXIT
         run_bungeecord $@
         ;;
     permissions)
